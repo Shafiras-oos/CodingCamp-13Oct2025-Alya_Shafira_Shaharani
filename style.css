@@ -103,9 +103,9 @@ button  {
 
 }
 th {
-    text-align: left;
+  text-align: left;
   color:#b3c4ef;
-  font-size: 0.875rem;
+  font-size: 16px;;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -127,6 +127,7 @@ td[colspan="4"] {
   color: #b3c4ef;
   padding: 30px;
 }
+
 
 
 
