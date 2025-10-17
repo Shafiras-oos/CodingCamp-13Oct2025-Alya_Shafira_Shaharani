@@ -82,51 +82,52 @@ button  {
     background-color: #7c84cc
 }
 
-
 .content-table {
     text-align: center;
     border-collapse: collapse;
     margin: 15px 10px;
-    font-size: 9px;
+    font-size: 15px; 
     min-width: 95%;
-    border-radius: 5px 5px 0 0px;
+    border-radius: 10px 10px 0 0;
     overflow: hidden;
-    font-family: monospace;
-    color: #b3c4ef
-    
+    font-family: 'Poppins', monospace;
+    color: #e2e8f0; 
 }
+
 .content-table thead tr th {
-    background-color: #0e1525;;
+    background-color: #0e1525;
     text-align: center;
     font-weight: bold;
-    padding: 12px 16px;
+    padding: 14px 20px;
+    color: #a5b4fc; 
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
 
-}
-th {
-  text-align: left;
-  color:#b3c4ef;
-  font-size: 14px;;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
 .content-table tbody tr {
     background-color: #101729;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     transition: background-color 0.2s ease-in-out;
 }
+
+.content-table tbody tr:hover {
+    background-color: #1e293b; 
+}
+
 td {
-  padding: 10px 16px;
-  color: #b3c4ef;
-  border-bottom: 1px solid #374151;
-  font-size: 16px;
+    padding: 12px 18px;
+    color:  #b3c4ef; 
+    border-bottom: 1px solid #374151;
+    font-size: 15px;
 }
 
 td[colspan="4"] {
-  text-align: center;
-  color: #b3c4ef;
-  padding: 25px;
-  font-size: 16px;
+    text-align: center;
+    color: #b3c4ef;
+    padding: 25px;
+    font-size: 15px;
 }
 
 
